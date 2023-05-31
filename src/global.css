@@ -1,6 +1,15 @@
+:root {
+  --corPrimaria: #00b894;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.container {
+  width: min(100% - 30px, 1440px);
+  margin: 0 auto;
 }

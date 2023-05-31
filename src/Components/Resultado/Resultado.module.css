@@ -1,0 +1,11 @@
+.resultado {
+  text-align: center;
+}
+
+.resultadoTitulo,
+.resultadoValor,
+.resultadoSituacao {
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 12px;
+}
