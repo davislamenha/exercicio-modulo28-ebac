@@ -1,5 +1,5 @@
 .header {
-  background-color: #00b894;
+  background-color: var(--corPrimaria);
   padding: 10px 0;
   margin-bottom: 20px;
 }

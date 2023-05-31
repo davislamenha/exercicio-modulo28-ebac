@@ -1,3 +1,7 @@
+:root {
+  --corPrimaria: #00b894;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
