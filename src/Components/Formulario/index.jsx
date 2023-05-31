@@ -1,9 +1,9 @@
 import styles from './Formulario.module.css';
 
-export default function Formulario() {
+export default function Formulario({ submit }) {
   return (
     <div className="container">
-      <form className={styles.form}>
+      <form className={styles.form} onSubmit={submit}>
         <h2 className={styles.formTitulo}>Calculadora de IMC</h2>
         <label className={styles.formLabel} htmlFor="altura">
           Altura
@@ -12,6 +12,7 @@ export default function Formulario() {
           className={styles.formInput}
           id="altura"
           type="number"
+          step={0.01}
           required
         />
         <label className={styles.formLabel} htmlFor="peso">

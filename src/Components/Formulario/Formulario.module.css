@@ -1,6 +1,6 @@
 .form {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   padding: 40px 0 80px;
   display: flex;
   flex-direction: column;
